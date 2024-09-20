@@ -33,6 +33,10 @@ brew install --cask rancher
 brew install dockutil
 dockutil --remove all
 
+# Install PostgreSQL cli
+brew install libpq
+brew link --force --overwrite libpq
+
 defaults write com.apple.dock show-recents -bool false
 defaults write com.apple.dock tilesize -int 36
 
