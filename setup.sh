@@ -49,6 +49,12 @@ open https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckb
 # Work
 #
 
+# Install Deno
+brew install deno
+
+# Install NodeJS
+brew install node
+
 # Install Slack
 brew install --cask slack
 
