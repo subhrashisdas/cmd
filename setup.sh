@@ -34,6 +34,9 @@ brew install dockutil
 brew install libpq
 brew link --force --overwrite libpq
 
+brew install docker
+brew install tree
+
 #
 # Work
 #
